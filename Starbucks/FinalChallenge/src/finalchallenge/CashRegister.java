@@ -284,6 +284,7 @@ public class CashRegister {
         FileWriter fw = new FileWriter("salesTransactions.txt", true);
         PrintWriter pw = new PrintWriter(fw);
         pw.println();
+        pw.println(aTransaction);
         pw.close();
 
         aStore.getDailySales().add(aTransaction);
@@ -313,9 +314,6 @@ public class CashRegister {
         PrintWriter pw = new PrintWriter(fw);
 
         pw.println(storeMessage);
-        for(int i = 0; i < aStore.getDailySales().size(); i++){
-            pw.println(aStore.getDailySales().get(i));
-        }
         pw.close();
     }
 
