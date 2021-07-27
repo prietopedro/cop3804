@@ -63,8 +63,7 @@ public class CashRegister {
             }
 
 
-        } while (menuOption != 4);
-        myCashRegister.summarizeStoreSales();
+        } while (menuOption != 5);
 
     }
 
