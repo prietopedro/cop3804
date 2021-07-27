@@ -1,0 +1,12 @@
+
+
+
+On 2021-07-26 09:37:11-PM, the FIU Starbucks store has sold $26.75
+
+----------------------------------------------
+2021-07-26 09:36:34-PM Pedro   
+ Drinks: [Drink{name='fsa', size='small', ounces=8.0, addedCream=false, addedFlavor='null', cost=2.5}] 
+ Merchandises: [Merchandise{name='t-shirt', size='small', unitPrice=7.5, quantity=3}] 
+ Payment Method: null AmountPaid=26.75
+----------------------------------------------
+
